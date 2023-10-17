@@ -19,3 +19,13 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+
+people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+
+print(people)
+
+a = str(input("Gimme a name to replace: "))
+b = str(input("Gimme the replacement: "))
+
+people = [i if i != a else b for i in people]
+print(people)

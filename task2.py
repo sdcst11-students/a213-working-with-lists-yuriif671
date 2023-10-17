@@ -23,3 +23,12 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+
+output = []
+
+for i in range(5):
+    a = str(input("Gimme a word: "))
+
+    output.append(a)
+
+print(output)
